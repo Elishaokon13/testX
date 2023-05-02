@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/logo.png" />
       </Head>
       <main>
-        <PageLayout title="Mintyplex - Home">
+        <PageLayout title="Baby FURBO - Home">
           <Hero />
           <AboutSection />
           <Roadmap />

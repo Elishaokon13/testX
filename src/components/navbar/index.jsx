@@ -48,7 +48,7 @@ export default function Navbar() {
                                 <Button fontWeight='500' onClick={() => router.push('/')} _hover={{ textDecoration: 'none', color: 'white' }} className={router.asPath != '/' ? "" : "nav-active"}>Home</Button>
                                 <Button fontWeight='500' onClick={() => router.push('#tokenomics')} _hover={{ textDecoration: 'none', color: 'white' }} className={router.pathname != '#tokenomics' ? "" : "nav-active"}>Tokenomics</Button>
                                 <Button fontWeight='500' onClick={() => router.push('#roadmap')} _hover={{ textDecoration: 'none', color: 'white' }} className={router.pathname != '#roadmap' ? "" : "nav-active"}>Roadmap</Button>
-                                <Button fontWeight='500' onClick={() => router.push('#team')} _hover={{ textDecoration: 'none', color: 'white' }} className={router.pathname != '#team' ? "" : "nav-active"}>Team</Button>
+                                {/* <Button fontWeight='500' onClick={() => router.push('#team')} _hover={{ textDecoration: 'none', color: 'white' }} className={router.pathname != '#team' ? "" : "nav-active"}>Team</Button>
                                 <Button fontWeight='500' _hover={{ textDecoration: 'none', color: 'white' }} className={router.pathname != '/community' ? "" : "nav-active"}>
                                     {
                                         dropdown ? (
@@ -61,13 +61,13 @@ export default function Navbar() {
                                             </Flex>
                                         )
                                     }
-                                </Button>
+                                </Button> */}
                             </ButtonGroup>
                         ) : null}
                         {isDesktop ? (
                             <Flex gap='20px'>
                                 <Link href='/'>
-                                    <Button px='20px' bg='brand.700' fontWeight={400} color='white'>Launch App</Button>
+                                    <Button px='20px' bg='brand.700' fontWeight={400} color='white'>WHITEPAPER</Button>
                                 </Link>
                             </Flex>
                         ) : null}
@@ -85,12 +85,6 @@ export default function Navbar() {
                                     </Link>
                                     <Link href='#roadmap'>
                                         <Text py='2' px='1' cursor='pointer' _hover={{ color: 'whiteAlpha.500' }}>Roadmap</Text>
-                                    </Link>
-                                    <Link href='#team'>
-                                        <Text py='2' px='1' cursor='pointer' _hover={{ color: 'whiteAlpha.500' }}>Team</Text>
-                                    </Link>
-                                    <Link href='#community'>
-                                        <Text py='2' px='1' cursor='pointer' _hover={{ color: 'whiteAlpha.500' }}>Community</Text>
                                     </Link>
                                     <Link href='/assets/mintyplex_whitepaper_v1.pdf'>
                                         <Text py='2' px='1' cursor='pointer' _hover={{ color: 'whiteAlpha.500' }}>Whitepaper</Text>

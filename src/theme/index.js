@@ -13,7 +13,7 @@ const styles = {
 const colors = {
   brand: {
     100: '#02050C',
-    200: '#316BFF',
+    200: '#FFA500',
     300: '#5BB0FF',
     400: '#3AB5FF',
     500: '#2164F3',
