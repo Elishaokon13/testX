@@ -37,7 +37,7 @@ export default function Footer() {
                                                 <FaTelegram />
                                             </Box>
                                         </Flex>
-                                        <Text fontSize={{ base: '12px', sm: '14px', }} fontWeight='500' Baby Furbo. All Rights Reserved.</Text>
+                                        <Text fontSize={{ base: '12px', sm: '14px', }} fontWeight='500'> Baby Furbo. All Rights Reserved.</Text>
                                     </VStack>
                                     <VStack align='left' spacing='30px' display={['none', 'flex']}>
                                         <Stack direction={['row']} spacing={10} justify='space-around'>
