@@ -16,7 +16,7 @@ export default function Footer() {
                                 <Stack direction={['column', 'row']} justify='space-between' spacing={10}>
                                     <VStack align={['flex-start']} spacing='20px'>
                                         <Flex gap='10px'>
-                                            <Image src='/assets/ARBFURBO.png' height={52} width={52} alt='Atap Logo' />
+                                            <Image src='/assets/ARBFURBO.png' height={52} width='BFARB Logo' />
                                             <Text fontWeight='700'>BABY FURBO</Text>
                                         </Flex>
                                         {/* <Box as='a' >
@@ -37,7 +37,7 @@ export default function Footer() {
                                                 <FaTelegram />
                                             </Box>
                                         </Flex>
-                                        <Text fontSize={{ base: '12px', sm: '14px', }} fontWeight='500' Baby Furbo © 2023. All Rights Reserved.</Text>
+                                        <Text fontSize={{ base: '12px', sm: '14px', }} fontWeight='500' Baby Furbo. All Rights Reserved.</Text>
                                     </VStack>
                                     <VStack align='left' spacing='30px' display={['none', 'flex']}>
                                         <Stack direction={['row']} spacing={10} justify='space-around'>
@@ -46,7 +46,7 @@ export default function Footer() {
                                                 <Box as='a' href="/" target='_blank'><ListItem fontWeight='400' fontSize={{ base: '14px', sm: '16px', }} opacity='0.8' cursor='pointer'>Tokenomics</ListItem></Box>
                                                 
                                                 <Box as='a' href="/" target='_blank'><ListItem fontWeight='400' fontSize={{ base: '14px', sm: '16px', }} opacity='0.8' cursor='pointer'>Community</ListItem></Box>
-                                                <Box as='a' href="/assets/mintyplex_whitepaper_v1.pdf" target='_blank'><ListItem fontWeight='400' fontSize={{ base: '14px', sm: '16px', }} opacity='0.8' cursor='pointer'>Whitepaper</ListItem></Box>
+                                                <Box as='a' href="/" target='_blank'><ListItem fontWeight='400' fontSize={{ base: '14px', sm: '16px', }} opacity='0.8' cursor='pointer'>Whitepaper</ListItem></Box>
                                             </List>
                                         </Stack>
                                     </VStack>
