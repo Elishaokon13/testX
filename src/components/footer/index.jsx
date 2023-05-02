@@ -26,33 +26,25 @@ export default function Footer() {
                                             <Input type='email' placeholder='Email Address' />
                                             <InputRightElement type='submit'><FaArrowRight /></InputRightElement>
                                         </InputGroup> */}
-                                        <Text maxW='450px'>Stay in the know, subscribe to our email list to receive updates, news, and specials offers.</Text>
+                                        
                                         <Flex gap='10px' color='whiteAlpha.600'>
-                                            <Box as='a' href='https://twitter.com/Mintyplex' rounded='full' p='6px' border='1px' _hover={{ color: 'white' }}>
+                                            <Box as='a' href='https://twitter.com/Babyfurbo' rounded='full' p='6px' border='1px' _hover={{ color: 'white' }}>
                                                 <FaTwitter />
                                             </Box>
-                                            <Box as='a' href='https://www.facebook.com/mintyplex' rounded='full' p='6px' border='1px' _hover={{ color: 'white' }}>
-                                                <FaFacebook />
-                                            </Box>
-                                            <Box as='a' href='https://www.linkedin.com/company/mintyplex/' rounded='full' p='6px' border='1px' _hover={{ color: 'white' }}>
-                                                <FaLinkedinIn />
-                                            </Box>
-                                            <Box as='a' href='https://discord.gg/Fu5bXmZNVU' rounded='full' p='6px' border='1px' _hover={{ color: 'white' }}>
-                                                <FaDiscord />
-                                            </Box>
-                                            <Box as='a' href='https://t.me/mintyplex' rounded='full' p='6px' border='1px' _hover={{ color: 'white' }}>
+                                            
+                                            
+                                            <Box as='a' href='https://t.me/BABYFURBO' rounded='full' p='6px' border='1px' _hover={{ color: 'white' }}>
                                                 <FaTelegram />
                                             </Box>
                                         </Flex>
-                                        <Text fontSize={{ base: '12px', sm: '14px', }} fontWeight='500' color='white' >Mintyplex © 2023. All Rights Reserved.</Text>
+                                        <Text fontSize={{ base: '12px', sm: '14px', }} fontWeight='500' Baby Furbo © 2023. All Rights Reserved.</Text>
                                     </VStack>
                                     <VStack align='left' spacing='30px' display={['none', 'flex']}>
                                         <Stack direction={['row']} spacing={10} justify='space-around'>
                                             <List display='flex' flexDirection='column' gap='10px'>
                                                 <Box as='a' href="/" target='_blank'><ListItem fontWeight='400' fontSize={{ base: '14px', sm: '16px', }} opacity='0.8' cursor='pointer' color='white'>Home</ListItem></Box>
                                                 <Box as='a' href="/" target='_blank'><ListItem fontWeight='400' fontSize={{ base: '14px', sm: '16px', }} opacity='0.8' cursor='pointer'>Tokenomics</ListItem></Box>
-                                                <Box as='a' href="/" target='_blank'><ListItem fontWeight='400' fontSize={{ base: '14px', sm: '16px', }} opacity='0.8' cursor='pointer'>Roadmap</ListItem></Box>
-                                                <Box as='a' href="/" target='_blank'><ListItem fontWeight='400' fontSize={{ base: '14px', sm: '16px', }} opacity='0.8' cursor='pointer'>Team</ListItem></Box>
+                                                
                                                 <Box as='a' href="/" target='_blank'><ListItem fontWeight='400' fontSize={{ base: '14px', sm: '16px', }} opacity='0.8' cursor='pointer'>Community</ListItem></Box>
                                                 <Box as='a' href="/assets/mintyplex_whitepaper_v1.pdf" target='_blank'><ListItem fontWeight='400' fontSize={{ base: '14px', sm: '16px', }} opacity='0.8' cursor='pointer'>Whitepaper</ListItem></Box>
                                             </List>
