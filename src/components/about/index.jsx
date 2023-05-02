@@ -17,16 +17,16 @@ export default function AboutSection() {
             </VStack> */}
             <VStack align={"center"} my='100px' gap='50px' textAlign='center'>
                 <VStack gap='20px'>
-                    <Heading fontSize={['32px', '60px']} color='brand.100' className='outline-text' >What is BABY FURBO?</Heading>
-                    <Text maxW='800px' textAlign='center' fontSize={['14px', '16px']}>Mintyplex is an NFT-based ecosystem providing creators, collectors and enthusiasts on Core Chain with accessible and empowering tools for digital ownership and monetization.</Text>
+                    <Heading fontSize={['32px', '60px']} color='brand.200' >What is BABY FURBO?</Heading>
+                    <Text maxW='800px' textAlign='center' fontSize={['14px', '16px']}>Our Predecessor, $FARB gave us the idea of rewarding our holders and we added a twist. Holders get rewarded in both $FARB and $ARB tokens!</Text>
                 </VStack>
-                <VStack gap='20px'>
-                    <Heading fontSize={['32px', '60px']} color='brand.100' className='outline-text' >Get to know $MTPX</Heading>
+                {/*<VStack gap='20px'>
+                    <Heading fontSize={['32px', '60px']} color='brand.100' className='outline-text' >Get to know $BFARB</Heading>
                     <Text maxW='800px' textAlign='center' fontSize={['14px', '16px']}>$MTPX is our native token with a total supply of 100 million, which will power the Mintyplex Ecosystem. Enthusiasts will be able to use $MTPX for transactions, earning rewards, and participating in governance once we launch our DAO.</Text>
-                </VStack>
-                <Card>
+                </VStack> */}
+                <Card bgColor={'brand.200'}>
                     <CardHeader>
-                        <Heading size='md'>$FARB TOKENOMICS</Heading>
+                        <Heading size='md'>$BFARB TOKENOMICS</Heading>
                     </CardHeader>
 
                     <CardBody>
@@ -54,6 +54,36 @@ export default function AboutSection() {
                                 <Text pt='2' fontSize='sm'>
                                 50%
                                 </Text>
+                            </Box>
+                            <Box>
+
+                                <Heading size='xs' textTransform='uppercase'>
+
+                                💲 Marketing 
+
+                                </Heading>
+
+                                <Text pt='2' fontSize='sm'>
+
+                                10%
+
+                                </Text>
+
+                            </Box>
+                            <Box>
+
+                                <Heading size='xs' textTransform='uppercase'>
+
+                                BUY/SELL TAXES
+
+                                </Heading>
+
+                                <Text pt='2' fontSize='sm'>
+
+                                6%
+
+                                </Text>
+
                             </Box>
                         </VStack>
                     </CardBody>
