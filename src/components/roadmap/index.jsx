@@ -17,8 +17,7 @@ export default function Roadmap() {
                             </Flex>
                             <UnorderedList w='150px'>
                                 <Text fontWeight='700' fontSize='20px' mb='10px'>Phase 1:</Text>
-                                <ListItem>Brainstorming</ListItem>
-                                <ListItem>Research</ListItem>
+                                <ListItem>Launch</ListItem>
                                 <ListItem>Website Revamp</ListItem>
                                 <ListItem>Tokenomics Design</ListItem>
                                 <ListItem>Release Whitepaper v1</ListItem>

@@ -14,15 +14,12 @@ export default function Home() {
         <title>Mintyplex</title>
         <meta name="description" content="Mintyplex" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/logo.png" />
+        <link rel="icon" href="/ARBFURBO.png" />
       </Head>
       <main>
-        <PageLayout title="Baby FURBO - Home">
+        <PageLayout title="Baby FURBO">
           <Hero />
           <AboutSection />
-          <Roadmap />
-          <Team />
-          <Faqs />
           <Community />
         </PageLayout>
       </main>

@@ -24,7 +24,7 @@ export default function Navbar() {
                     <Flex justify="space-between" align={'center'}>
 
                         <Link href="/">
-                            <Image src='/assets/logo.png' height={36} width={36} alt='Atap Logo' />
+                            <Image src='/assets/ARBFURBO.png' height={48} width={36} alt='Atap Logo' />
                         </Link>
                         {
                             !isDesktop && (
@@ -48,20 +48,7 @@ export default function Navbar() {
                                 <Button fontWeight='500' onClick={() => router.push('/')} _hover={{ textDecoration: 'none', color: 'white' }} className={router.asPath != '/' ? "" : "nav-active"}>Home</Button>
                                 <Button fontWeight='500' onClick={() => router.push('#tokenomics')} _hover={{ textDecoration: 'none', color: 'white' }} className={router.pathname != '#tokenomics' ? "" : "nav-active"}>Tokenomics</Button>
                                 <Button fontWeight='500' onClick={() => router.push('#roadmap')} _hover={{ textDecoration: 'none', color: 'white' }} className={router.pathname != '#roadmap' ? "" : "nav-active"}>Roadmap</Button>
-                                {/* <Button fontWeight='500' onClick={() => router.push('#team')} _hover={{ textDecoration: 'none', color: 'white' }} className={router.pathname != '#team' ? "" : "nav-active"}>Team</Button>
-                                <Button fontWeight='500' _hover={{ textDecoration: 'none', color: 'white' }} className={router.pathname != '/community' ? "" : "nav-active"}>
-                                    {
-                                        dropdown ? (
-                                            <Flex align='center' gap='5px' onClick={() => setDropdown(false)} >
-                                                Less <FaCaretUp />
-                                            </Flex>
-                                        ) : (
-                                            <Flex align='center' gap='5px' onClick={() => setDropdown(true)} >
-                                                More <FaCaretDown />
-                                            </Flex>
-                                        )
-                                    }
-                                </Button> */}
+                                
                             </ButtonGroup>
                         ) : null}
                         {isDesktop ? (

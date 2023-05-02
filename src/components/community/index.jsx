@@ -7,7 +7,7 @@ export default function Community() {
     return (
         <Box my='50px' id='community'>
             <Box>
-                <VStack py='40px' bg='brand.800' gap='30px' borderTop='4px' borderColor='brand.400'>
+                {/* <VStack py='40px' bg='brand.800' gap='30px' borderTop='4px' borderColor='brand.400'>
                     <Text>Partnered with Innovative Brands</Text>
                     <Flex align='center' gap='50px' justify='center' flexWrap='wrap'>
                         <VStack>
@@ -44,7 +44,7 @@ export default function Community() {
                             <Text>Core Dao</Text>
                         </VStack>
                     </Flex>
-                </VStack>
+                </VStack> */}
 
                 <ContainerLayout mt='50px'>
                     <HStack w='full' rounded='20px' py={['20px', '40px']} px={['20px', '70px']} bgGradient={["linear(to-r, brand.800, brand.600)"]}>

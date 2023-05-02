@@ -11,7 +11,7 @@ export default function PageLayout(props) {
     return (
         <>
             <Head>
-                <title>{props?.title || 'Mintyplex'}</title>
+                <title>{props?.title || 'BABY FURBO'}</title>
             </Head>
             <Box>
                 <Navbar />
