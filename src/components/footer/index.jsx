@@ -16,7 +16,7 @@ export default function Footer() {
                                 <Stack direction={['column', 'row']} justify='space-between' spacing={10}>
                                     <VStack align={['flex-start']} spacing='20px'>
                                         <Flex gap='10px'>
-                                            <Image src='/assets/ARBFURBO.png' height={52} width='BFARB Logo' />
+                                            <Image src='/assets/ARBFURBO.png' height={52} width={52} alt='BFARB Logo' />
                                             <Text fontWeight='700'>BABY FURBO</Text>
                                         </Flex>
                                         {/* <Box as='a' >
