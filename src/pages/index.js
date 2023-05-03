@@ -20,7 +20,8 @@ export default function Home() {
         <PageLayout title="Baby FURBO">
           <Hero />
           <AboutSection />
-          <Community />
+          <Roadmap />
+          
         </PageLayout>
       </main>
     </>

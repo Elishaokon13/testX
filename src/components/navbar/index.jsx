@@ -47,7 +47,7 @@ export default function Navbar() {
                             <ButtonGroup variant="link" spacing="40px" fontWeight='500' >
                                 <Button fontWeight='500' onClick={() => router.push('/')} _hover={{ textDecoration: 'none', color: 'white' }} className={router.asPath != '/' ? "" : "nav-active"}>Home</Button>
                                 <Button fontWeight='500' onClick={() => router.push('#tokenomics')} _hover={{ textDecoration: 'none', color: 'white' }} className={router.pathname != '#tokenomics' ? "" : "nav-active"}>Tokenomics</Button>
-                                <Button fontWeight='500' onClick={() => router.push('#roadmap')} _hover={{ textDecoration: 'none', color: 'white' }} className={router.pathname != '#roadmap' ? "" : "nav-active"}>How to buy $BFARB</Button>
+                                <Button fontWeight='500' onClick={() => router.push('#buytoken')} _hover={{ textDecoration: 'none', color: 'white' }} className={router.pathname != '#buytoken' ? "" : "nav-active"}>How to buy $BFARB</Button>
                                 
                             </ButtonGroup>
                         ) : null}

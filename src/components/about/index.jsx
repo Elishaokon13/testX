@@ -6,27 +6,16 @@ import React from 'react'
 export default function AboutSection() {
     return (
         <Box my='50px'>
-            {/* <VStack py='40px' bg='brand.200' gap='30px' borderTop='4px' borderColor='brand.400'>
-                <Text>All-in-one Platform</Text>
-                <Flex align='center' gap='30px' justify='center' textColor={"brand.800"} flexWrap='wrap' fontSize={['14px', '24px']} fontWeight='700'>
-                    <Text>Marketplace</Text>
-                    <Text>Launchpad</Text>
-                    <Text>Aggregator</Text>
-                    <Text>Chatroom</Text>
-                </Flex>
-            </VStack> */}
+            
             <VStack align={"center"} my='100px' gap='50px' textAlign='center'>
                 <VStack gap='20px'>
                     <Heading fontSize={['32px', '60px']} color='brand.200' >What is BABY FURBO?</Heading>
                     <Text maxW='800px' textAlign='center' fontSize={['14px', '16px']}>Our Predecessor, $FARB gave us the idea of rewarding our holders and we added a twist. Holders get rewarded in both $FARB and $ARB tokens!</Text>
                 </VStack>
-                {/*<VStack gap='20px'>
-                    <Heading fontSize={['32px', '60px']} color='brand.100' className='outline-text' >Get to know $BFARB</Heading>
-                    <Text maxW='800px' textAlign='center' fontSize={['14px', '16px']}>$MTPX is our native token with a total supply of 100 million, which will power the Mintyplex Ecosystem. Enthusiasts will be able to use $MTPX for transactions, earning rewards, and participating in governance once we launch our DAO.</Text>
-                </VStack> */}
+                
                 <Card bgColor={'brand.200'}>
                     <CardHeader>
-                        <Heading size='md'>$BFARB TOKENOMICS</Heading>
+                        <Heading size='md' id='tokenomics'>$BFARB TOKENOMICS</Heading>
                     </CardHeader>
 
                     <CardBody>
