@@ -28,11 +28,11 @@ export default function Roadmap() {
                             GO TO SUSHISWAP</Heading>
                         </CardHeader>
                         <CardBody>
-                            <Text>Open SushiSwap and connect your wallet safely</Text>
+                            <Text>Click the button to open SushiSwap and connect your wallet safely</Text>
                         </CardBody>
                         <CardFooter>
                             <Link href='https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x3f515f0a8e93F2E2f891ceeA3AeDfAeAbC0a4AAd'>
-                            <Button bg={"brand.700"} color={"brand.200"}>View here</Button>
+                            <Button bg={"brand.700"} color={"brand.200"}>Click Here</Button>
                             </Link>
                         </CardFooter>
                     </Card>
