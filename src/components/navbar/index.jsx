@@ -47,7 +47,7 @@ export default function Navbar() {
                             <ButtonGroup variant="link" spacing="40px" fontWeight='500' >
                                 <Button fontWeight='500' onClick={() => router.push('/')} _hover={{ textDecoration: 'none', color: 'white' }} className={router.asPath != '/' ? "" : "nav-active"}>Home</Button>
                                 <Button fontWeight='500' onClick={() => router.push('#tokenomics')} _hover={{ textDecoration: 'none', color: 'white' }} className={router.pathname != '#tokenomics' ? "" : "nav-active"}>Tokenomics</Button>
-                                <Button fontWeight='500' onClick={() => router.push('#roadmap')} _hover={{ textDecoration: 'none', color: 'white' }} className={router.pathname != '#roadmap' ? "" : "nav-active"}>Roadmap</Button>
+                                <Button fontWeight='500' onClick={() => router.push('#roadmap')} _hover={{ textDecoration: 'none', color: 'white' }} className={router.pathname != '#roadmap' ? "" : "nav-active"}>How to buy $BFARB</Button>
                                 
                             </ButtonGroup>
                         ) : null}
@@ -71,7 +71,7 @@ export default function Navbar() {
                                         <Text py='2' px='1' cursor='pointer' _hover={{ color: 'whiteAlpha.500' }}>Tokenomics</Text>
                                     </Link>
                                     <Link href='#roadmap'>
-                                        <Text py='2' px='1' cursor='pointer' _hover={{ color: 'whiteAlpha.500' }}>Roadmap</Text>
+                                        <Text py='2' px='1' cursor='pointer' _hover={{ color: 'whiteAlpha.500' }}>How to buy</Text>
                                     </Link>
                                     <Link href='/assets/mintyplex_whitepaper_v1.pdf'>
                                         <Text py='2' px='1' cursor='pointer' _hover={{ color: 'whiteAlpha.500' }}>Whitepaper</Text>
@@ -82,7 +82,7 @@ export default function Navbar() {
                     }
                 </ContainerLayout>
             </Box>
-            {dropdown && (
+            {/* {dropdown && (
                 <VStack gap='10px' position='absolute' top={-5} right={480} p='10px' bg='brand.100' rounded='8px' border='1px' borderColor='brand.500' >
                     <Flex as='a' href='#faqs' justify='center' rounded='6px' px='40px' py='6px' _hover={{ bg: 'brand.700' }} fontSize='12px' w='full' bg='brand.100' border='1px' borderColor='brand.500'>
                         <Text>Faqs</Text>
@@ -97,7 +97,7 @@ export default function Navbar() {
                         <Text>Contact Us</Text>
                     </Flex>
                 </VStack>
-            )}
+            )} */}
         </>
     )
 }
