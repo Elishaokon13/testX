@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Mintyplex</title>
-        <meta name="description" content="Mintyplex" />
+        <title>Baby Furbo</title>
+        <meta name="description" content="Baby Furbo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/ARBFURBO.png" />
       </Head>
