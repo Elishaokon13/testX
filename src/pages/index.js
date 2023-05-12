@@ -21,6 +21,9 @@ export default function Home() {
           <Hero />
           <AboutSection />
           <Roadmap />
+          <Community />
+          <Team />
+          <Faqs />
           
         </PageLayout>
       </main>
