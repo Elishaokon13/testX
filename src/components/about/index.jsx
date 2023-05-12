@@ -2,7 +2,8 @@ import { Box, Heading, VStack, Text, Flex } from '@chakra-ui/react'
 import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
 import Image from 'next/image'
 import React from 'react'
-import {BsPhone,BsFire} from 'react-icons/bs'
+import {BsFillPhoneFill,BsFire,BsBasketFill} from 'react-icons/bs'
+import {SiCashapp} from 'react-icons/si'
 export default function AboutSection() {
     return (
         // <Box my='50px'>
@@ -96,9 +97,9 @@ export default function AboutSection() {
     </a>
 </div>
 
-<div className="grid grid-cols-1 md:grid-cols-2 mt-6 px-10 ">
+<div className="grid grid-cols-1 md:grid-cols-2 mt-6 md:px-10 ">
     
-<div className="max-w-sm bg-white  border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div className="max-w-sm  bg-white  border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
     <Image
     src='https://th.bing.com/th/id/OIP.pn-cMd0gmnL_9cUSFXHKXQHaFj?pid=ImgDet&rs=1'
@@ -118,11 +119,11 @@ export default function AboutSection() {
         </a>
     </div>
 </div>
-<div className="grid grid-cols-1 md:grid-cols-2 gap-6 h-[2rem] mt-20">
+<div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:h-[2rem] mt-20">
     
 <div className="max-w-sm p-6 bg-white border border-gray-200 h-fit rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <div>
-        <BsPhone size={20} b color='blue' />
+    <div className='pb-3'>
+        <BsFillPhoneFill size={20} b color='yellow' />
     </div>
     <a href="#">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Total Supply</h5>
@@ -131,7 +132,7 @@ export default function AboutSection() {
     
 </div>
 <div className="max-w-sm p-6 bg-white border border-gray-200 h-fit rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <div>
+    <div className='pb-3'>
         <BsFire size={20} color='red' />
     </div>
     <a href="#">
@@ -141,26 +142,34 @@ export default function AboutSection() {
     
 </div>
 <div className="max-w-sm p-6 bg-white border border-gray-200 h-fit rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div className='pb-3'>
+        <BsBasketFill color='red' size={22} />
+    </div>
     <a href="#">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Supply </h5>
     </a>
-    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">50%</p>
+    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">10%</p>
     
 </div>
 <div className="max-w-sm p-6 bg-white border border-gray-200 h-fit rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div className='pb-3'>
+        <SiCashapp color='yellow' size={22} />
+    </div>
     <a href="#">
-        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Total Supply</h5>
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Marketing</h5>
     </a>
     <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">10,000,000,000</p>
     
 </div>
 
 
+
+
 </div>
 </div>
     </div>
  </div>
-</div>
+ </div>
 
     )
 }
