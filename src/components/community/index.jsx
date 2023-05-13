@@ -60,7 +60,7 @@ export default function Community() {
 <div className="my-20" id="community">
   <div>
     <div className="py-40 bg-brand-800 border-t-4 flex items-center justify-center flex-col border-slate-400 md:mt-10 gap-30">
-      <p className="font-bold text-2xl sm:text-3xl mb-2">Partnered with Innovative Brands</p>
+      <p className="font-bold text-2xl px-8  md:px-0 sm:text-3xl mb-2">Partnered with Innovative Brands</p>
       <div className="flex items-center justify-center  mt-10 gap-20 flex-wrap">
         <div className="flex flex-col items-center">
           <div className="rounded-10 overflow-hidden">
@@ -98,7 +98,7 @@ export default function Community() {
       </div>
     </div>
     <div className="mt-50">
-      <div className="w-full place-content-between place-items-center md:gap-20  rounded-20 py-20 sm:py-20 bg-[rgb(39,145,255)] grid md:grid-cols-2 grid-cols-1 px-20 sm:px-70 bg-[gradient-to-r from-purpple-800 to black-600]">
+      <div className="w-full place-content-between place-items-center md:gap-20  rounded-20 py-20 sm:py-20 bg-[rgb(39,145,255)] grid md:grid-cols-2 grid-cols-1 px-10 sm:px-70 bg-[gradient-to-r from-purpple-800 to black-600]">
         <div className="max-w-auto sm:max-w-450">
           <p className="font-bold text-2xl sm:text-3xl mb-2">Join our community</p>
           <p className="font-bold text-2xl sm:text-4xl mb-6">Let&lsquo;s Come Together and Transform the Way People View Digital Ownership!</p>

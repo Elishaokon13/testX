@@ -85,7 +85,7 @@ export default function AboutSection() {
         // </Box>
 
         <div className=" py-16">
-            <div className="grid grid-cols-1">
+            <div className="grid grid-cols-1 ">
                 <div className="flex flex-col px-12">
                     <h1 className="text-2xl md:text-4xl text-brand-200 font-bold ">Learn the essentials</h1>
 
@@ -97,13 +97,13 @@ export default function AboutSection() {
                         </a>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 mt-6 md:px-10 ">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 mt-6 lg:px-10 ">
 
-                        <div className="max-w-sm  bg-white  border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <div className="lg:max-w-sm  bg-white  border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
                                 <Image
                                     src='https://th.bing.com/th/id/OIP.pn-cMd0gmnL_9cUSFXHKXQHaFj?pid=ImgDet&rs=1'
-                                    width={400}
+                                    width={800}
                                     height={500}
 
                                 />
@@ -119,7 +119,7 @@ export default function AboutSection() {
                                 </a>
                             </div>
                         </div>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:h-[2rem] mt-20">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:h-[2rem] mt-20">
 
                             <div className="max-w-sm p-6 bg-white border border-gray-200 h-fit rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                 <div className='pb-3'>
