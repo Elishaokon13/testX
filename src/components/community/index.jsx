@@ -57,11 +57,11 @@ export default function Community() {
         //         </ContainerLayout>
         //     </Box>
         // </Box>
-<div className="my-50" id="community">
+<div className="my-20" id="community">
   <div>
-    <div className="py-40 bg-brand-800 border-t-4 border-brand-400 gap-30">
-      <p>Partnered with Innovative Brands</p>
-      <div className="flex items-center justify-center gap-50 flex-wrap">
+    <div className="py-40 bg-brand-800 border-t-4 flex items-center justify-center flex-col border-slate-400 md:mt-10 gap-30">
+      <p className="font-bold text-2xl sm:text-3xl mb-2">Partnered with Innovative Brands</p>
+      <div className="flex items-center justify-center  mt-10 gap-20 flex-wrap">
         <div className="flex flex-col items-center">
           <div className="rounded-10 overflow-hidden">
             <img
