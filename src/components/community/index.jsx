@@ -98,16 +98,17 @@ export default function Community() {
       </div>
     </div>
     <div className="mt-50">
-      <div className="w-full rounded-20 py-20 sm:py-40 grid md:grid-cols-2 grid-cols-1 px-20 sm:px-70 bg-[gradient-to-r from-purpple-800 to black-600]">
+      <div className="w-full place-content-between place-items-center md:gap-20  rounded-20 py-20 sm:py-20 bg-[rgb(39,145,255)] grid md:grid-cols-2 grid-cols-1 px-20 sm:px-70 bg-[gradient-to-r from-purpple-800 to black-600]">
         <div className="max-w-auto sm:max-w-450">
           <p className="font-bold text-2xl sm:text-3xl mb-2">Join our community</p>
-          <p className="font-bold text-2xl sm:text-5xl mb-6">Let&lsquo;s Come Together and Transform the Way People View Digital Ownership!</p>
+          <p className="font-bold text-2xl sm:text-4xl mb-6">Let&lsquo;s Come Together and Transform the Way People View Digital Ownership!</p>
           <p className="font-normal mb-6">At Mintyplex, we see NFTs as the missing link in enabling millions of people to embrace the Web3 space. By joining us, we can work together to make this vision a reality.</p>
-          <a href="https://discord.gg/Fu5bXmZNVU" className="bg-white text-blue-600 px-8 py-4 inline-block font-bold">Join discord</a>
+          <a href="https://discord.gg/Fu5bXmZNVU" className="text-white rounded-lg bg-blue-800 px-8 py-4 inline-block font-bold">Join discord</a>
         </div>
         <div className="max-w-auto sm:max-w-450">
+   
         <Image
-    src='https://img.freepik.com/premium-vector/post-engagement-abstract-concept-vector-illustration_107173-20333.jpg?size=626&ext=jpg&uid=R83135877&ga=GA1.2.1814511041.1683935768&semt=ais'
+    src='/assets/black-woman-sitting-sofa-working-laptop-freelancer-home-office_254685-470-removebg-preview.png'
     width={400}
     height={500}
     alt='Profile'
