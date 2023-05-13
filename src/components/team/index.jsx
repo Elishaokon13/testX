@@ -161,9 +161,10 @@ export default function Team() {
         //     </VStack>
         //     <Box rounded='full' w={150} h={150} bg='brand.600' opacity={0.5} position='absolute' top={4000} right='0' filter='blur(70px)' />
         // </Box>
-<div className="grid grid-cols-1 md:grid-cols-3 md:px-20">
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3  lg:px-20">
 <div className="relative group  rounded-r-md w-[300px]
-        h-[300px] overflow-hidden bg-black m-auto mt-36" style={styleObject}>
+        h-[300px] overflow-hidden bg-black m-auto mt-36" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom" style={styleObject}>
             <Image
                 src='/assets/five.jpg'
                 width={300}

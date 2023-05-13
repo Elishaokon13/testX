@@ -7,8 +7,10 @@ import PageLayout from '@/components/layout'
 import Roadmap from '@/components/roadmap'
 import Team from '@/components/team'
 import Head from 'next/head'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 export default function Home() {
+
   return (
     <>
       <Head>

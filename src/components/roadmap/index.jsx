@@ -56,7 +56,7 @@ export default function Roadmap() {
             <div className="flex justify-center items-center py-20">
                 <h1 className='md:text-[3rem] font-bold 3xl'>How to Buy $BFARB</h1>
             </div>
-            <div className="grid grid-cols-1 md:mx-0 lg:mx-12 gap-x-3 gap-y-6 md:gap-0 md:grid-cols-3">
+            <div className="grid grid-cols-1 mx-12 gap-x-3 gap-y-6 md:gap-3 md:grid-cols-3">
                 <div className="w-full max-w-sm  bg-white border border-gray-200  rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
 
                     <div className="flex flex-col py-5 pb-10">
