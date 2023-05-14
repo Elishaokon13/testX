@@ -19,7 +19,7 @@ export default function Hero() {
     </div>
     <div className='mt-8 md:mt-0'>
     <Image
-    src='/assets/homepage-hero-lg@2x.png'
+    src='/assets/Uplifted.jpg'
     width={400}
     height={500}
     alt='Profile'
