@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 export default function Hero() {
   return (
-    <div className=" mt-5  bg-brand-900 py-10 ">
+    <div className=" mt-5  bg-{#ffffff} py-10 ">
 <div>
 <div className="bg-[rgb(21,8,30)] grid md:grid-cols-2 grid-cols-1 pt-14 place-content-between place-items-center  ">
     <div className="ml-6">
