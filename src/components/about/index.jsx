@@ -10,13 +10,13 @@ export default function AboutSection() {
 
         //     <VStack align={"center"} my='100px' gap='50px' textAlign='center'>
         //         <VStack gap='20px'>
-        //             <Heading fontSize={['32px', '60px']} color='brand.200' >What is BABY FURBO?</Heading>
+        //             <Heading fontSize={['32px', '60px']} color='brand.200' >What is HO LEE $HEET?</Heading>
         //             <Text maxW='800px' textAlign='center' fontSize={['14px', '16px']}>Our Predecessor, $FARB gave us the idea of rewarding our holders and we added a twist. Holders get rewarded in both $FARB and $ARB tokens!</Text>
         //         </VStack>
 
         //         <Card bgColor={'brand.200'}>
         //             <CardHeader>
-        //                 <Heading size='md' id='tokenomics'>$BFARB TOKENOMICS</Heading>
+        //                 <Heading size='md' id='tokenomics'>$HEET TOKENOMICS</Heading>
         //             </CardHeader>
 
         //             <CardBody>
@@ -87,15 +87,15 @@ export default function AboutSection() {
         <div className=" py-16">
             <div className="grid grid-cols-1 ">
                 <div className="flex flex-col px-12">
-                    <h1 className="text-2xl md:text-4xl text-brand-200 font-bold ">Learn the essentials</h1>
+                    <h1 className="text-2xl md:text-4xl text-brand-200 font-bold ">Tokenomics</h1>
 
-                    <div className='block justify-between md:flex  items-center '>
+                    {/* <div className='block justify-between md:flex  items-center '>
 
                         <p className="max-w-md md:max-w-lg text-sm md:text-base mt-6">Our Predecessor, $FARB gave us the idea of rewarding our holders and we added a twist. Holders get rewarded in both $FARB and $ARB tokens!</p>
                         <a className="pt-[1rem] " href="https://app.sushi.com/swap?outputCurrency=0x721ebf5c9fa9b4c93194cbfae4060638374fbd61&chainId=1">
-                            <button className="py-4 px-8 rounded-lg  w-200 bg-blue-700 font-medium mt-6">BUY $BFARB</button>
+                            <button className="py-4 px-8 rounded-lg  w-200 bg-blue-700 font-medium mt-6">BUY $HEET</button>
                         </a>
-                    </div>
+                    </div> */}
 
                     <div className="grid grid-cols-1 lg:grid-cols-2 mt-6 lg:px-10 ">
 
@@ -109,14 +109,14 @@ export default function AboutSection() {
                                 />
                             </a>
                             <div className="p-5">
-                                <a href="#">
-                                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">What is BABY FURBO?</h5>
-                                </a>
-                                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Our Predecessor, $FARB gave us the idea of rewarding our holders and we added a twist. Holders get rewarded in both $FARB and $ARB tokens</p>
-                                <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                {/* <a href="#">
+                                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">What is HO LEE $HEET?</h5>
+                                </a> */}
+                                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce convallis diam non diam facilisis, sed venenatis magna laoreet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                {/* <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                     Read more
                                     <svg aria-hidden="true" className="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
-                                </a>
+                                </a> */}
                             </div>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:h-[2rem] mt-20">
