@@ -20,7 +20,6 @@ export default function Home() {
       <main>
         <PageLayout title="HO LEE $HEET">
           <Hero />
-          <AboutSection />
           <Roadmap />
           
           
