@@ -102,7 +102,7 @@ export default function AboutSection() {
                         <div className="lg:max-w-sm  bg-white  border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
                                 <Image
-                                    src='https://th.bing.com/th/id/OIP.pn-cMd0gmnL_9cUSFXHKXQHaFj?pid=ImgDet&rs=1'
+                                    src="/assets/meme 1.png"
                                     width={800}
                                     height={500}
 
