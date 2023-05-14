@@ -12,20 +12,17 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Baby Furbo</title>
-        <meta name="description" content="Baby Furbo" />
+        <title>HO LEE $HEET</title>
+        <meta name="description" content="HO LEE $HEET" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/ARBFURBO.png" />
       </Head>
       <main>
-        <PageLayout title="Baby FURBO">
+        <PageLayout title="HO LEE $HEET">
           <Hero />
           <AboutSection />
           <Roadmap />
-          {/* <Seo /> */}
-          <Community />
-          <Team />
-          <Faqs />
+          
           
         </PageLayout>
       </main>
