@@ -11,10 +11,10 @@ export default function PageLayout(props) {
     return (
         <>
             <Head>
-                <title>{props?.title || 'BABY FURBO'}</title>
+                <title>{props?.title || 'HO LEE $HEET'}</title>
             </Head>
             <Box>
-                <Navbar />
+                {/* <Navbar /> */}
                 {children}
                 <Footer />
             </Box>
