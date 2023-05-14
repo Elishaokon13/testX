@@ -28,12 +28,12 @@ export default function Footer() {
                                         </InputGroup> */}
                                         
                                         <Flex gap='10px' color='whiteAlpha.600'>
-                                            <Box as='a' href='https://twitter.com/Babyfurbo' rounded='full' p='6px' border='1px' _hover={{ color: 'white' }}>
+                                            <Box as='a' href='https://twitter.com/Babyfurbo' rounded='full' p='6px' border='1px' _hover={{ color: 'black' }}>
                                                 <FaTwitter />
                                             </Box>
                                             
                                             
-                                            <Box as='a' href='https://t.me/BABYFURBO' rounded='full' p='6px' border='1px' _hover={{ color: 'white' }}>
+                                            <Box as='a' href='https://t.me/BABYFURBO' rounded='full' p='6px' border='1px' _hover={{ color: 'black' }}>
                                                 <FaTelegram />
                                             </Box>
                                         </Flex>
@@ -43,7 +43,7 @@ export default function Footer() {
                                         <Stack direction={['row']} spacing={10} justify='space-around'>
                                             <List display='flex' flexDirection='column' gap='10px'>
                                                 <Box as='a' href="/" target='_blank'><ListItem fontWeight='400' fontSize={{ base: '14px', sm: '16px', }} opacity='0.8' cursor='pointer' color='white'>Home</ListItem></Box>
-                                                <Box as='a' href="/" target='_blank'><ListItem fontWeight='400' fontSize={{ base: '14px', sm: '16px', }} opacity='0.8' cursor='pointer'>Tokenomics</ListItem></Box>
+                                                
                                                 
                                                 <Box as='a' href="/" target='_blank'><ListItem fontWeight='400' fontSize={{ base: '14px', sm: '16px', }} opacity='0.8' cursor='pointer'>Community</ListItem></Box>
                                                 <Box as='a' href="/" target='_blank'><ListItem fontWeight='400' fontSize={{ base: '14px', sm: '16px', }} opacity='0.8' cursor='pointer'>Whitepaper</ListItem></Box>
