@@ -61,12 +61,11 @@ export default function Roadmap() {
 
                     <div className="flex flex-col py-5 pb-10">
                         <div className='flex flex-col items-center'>
-                            <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src="https://th.bing.com/th/id/OIP.9lJ5n080xdxfGtuHYLe_XAHaE7?pid=ImgDet&rs=1" alt="Bonnie image" />
+                            <a className="pt-[1rem] " href="https://app.sushi.com/swap?outputCurrency=0x721ebf5c9fa9b4c93194cbfae4060638374fbd61&chainId=1">
+      <button className="py-4 px-8 rounded-lg  w-200 bg-blue-700 font-medium mt-6">Dex Tools</button>
+    </a>
                         </div>
-                        <div className='px-4'>
-                            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">STEP 1</h5>
-                            <span className="text-sm text-gray-500 dark:text-gray-400"> SETUP YOUR WALLET</span>
-                        </div>
+                        
 
                     </div>
                 </div>
