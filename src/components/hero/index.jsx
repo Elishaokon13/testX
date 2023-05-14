@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <div className=" mt-5  bg-white py-10 ">
 <div>
-<div className="bg-[rgb(21,8,30)] grid md:grid-cols-2 grid-cols-1 pt-14 place-content-between place-items-center  ">
+<div className="bg-white grid md:grid-cols-2 grid-cols-1 pt-14 place-content-between place-items-center  ">
     <div className="ml-6">
     <h1 className="text-black l py-10 max-w-420 mt-3 text-6xl font-bold">HO LEE $HEET</h1>
     
