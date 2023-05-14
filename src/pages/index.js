@@ -2,12 +2,13 @@ import AboutSection from '@/components/about'
 import Community from '@/components/community'
 import Faqs from '@/components/faqs'
 import Hero from '@/components/hero'
+// import Seo from '@/components/Seo'
 import PageLayout from '@/components/layout'
 import Roadmap from '@/components/roadmap'
 import Team from '@/components/team'
 import Head from 'next/head'
-
 export default function Home() {
+
   return (
     <>
       <Head>
@@ -21,6 +22,10 @@ export default function Home() {
           <Hero />
           <AboutSection />
           <Roadmap />
+          {/* <Seo /> */}
+          <Community />
+          <Team />
+          <Faqs />
           
         </PageLayout>
       </main>
